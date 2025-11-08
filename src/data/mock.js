@@ -4,7 +4,7 @@ export const companyInfo = {
   description: 'Design Draft is one of the top builders and architectural design companies in Thrissur, Kerala, with over 25 years of trusted experience and 250+ happy clients. We specialize in residential and commercial property development, delivering modern homes, traditional Kerala houses, and quality commercial spaces across Kerala.',
   location: 'Irinjalakuda, Thrissur, Kerala',
   phone: '+91 7736885666',
-  email: 'hello@designdraft.co.in',
+  email: 'Info@designdraft.co.in',
   address: 'Design Draft Designers & Developers, Irinjalakuda, Thrissur, Kerala 680121',
   googleMapsUrl: 'https://maps.google.com/?q=Design+Draft+Irinjalakuda+Thrissur',
   whatsapp: '917736885666',

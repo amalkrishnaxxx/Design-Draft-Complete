@@ -12,7 +12,8 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 via-blue-900/85 to-blue-900/75 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/5 via-[#4C1D0D]/8 to-[#4C1D0D]/7 z-10" />
+
           <img
             src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25"
             alt="Luxury Home in Thrissur"
@@ -23,8 +24,8 @@ const Home = () => {
         {/* Hero Content */}
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6 md:space-y-8 animate-fade-in">
-            <div className="inline-block px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full border border-orange-500/30">
-              <p className="text-orange-200 text-sm md:text-base font-medium">
+            <div className="inline-block px-4 py-2 bg-orange-500 backdrop-blur-sm rounded-full border border-orange-500/3">
+              <p className="text-white text-sm md:text-base font-medium">
                 Thrissur's Leading Home Builders & Developers
               </p>
             </div>
@@ -149,7 +150,7 @@ const Home = () => {
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               From architectural design to turnkey construction, we provide end-to-end solutions for your
-              residential and commercial projects in Thrissur.
+              residential and commercial projects.
             </p>
           </div>
 
@@ -278,11 +279,11 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-blue-900 text-white">
+      <section className="py-16 md:py-24 bg-[#4C1D0D]  text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="inline-block px-4 py-1.5 bg-orange-500/20 backdrop-blur-sm rounded-full mb-4">
-              <span className="text-orange-300 text-sm font-semibold">Client Testimonials</span>
+            <div className="inline-block px-4 py-1.5 bg-orange-500 backdrop-blur-sm rounded-full mb-4">
+              <span className="text-white text-sm font-semibold">Client Testimonials</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               What Our Clients Say
@@ -333,7 +334,7 @@ const Home = () => {
       <section className="py-16 md:py-24 bg-orange-500">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Build Your Dream Home in Thrissur?
+            Ready to Build Your Dream Home ?
           </h2>
           <p className="text-xl text-orange-100 mb-8">
             Let's discuss your project and bring your vision to life with Thrissur's most trusted builders.

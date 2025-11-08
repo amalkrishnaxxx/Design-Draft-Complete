@@ -19,7 +19,7 @@ const Blog = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.unsplash.com/photo-1565255822848-80db21938837"
             alt="Blog"
@@ -45,11 +45,10 @@ const Blog = () => {
                 key={category}
                 onClick={() => setSelectedCategory(category)}
                 size="sm"
-                className={`${
-                  selectedCategory === category
-                    ? 'bg-orange-500 hover:bg-orange-600 text-white'
-                    : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
-                }`}
+                className={`${selectedCategory === category
+                  ? 'bg-orange-500 hover:bg-orange-600 text-white'
+                  : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
+                  }`}
               >
                 {category}
               </Button>
@@ -124,7 +123,7 @@ const Blog = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-blue-900 text-white">
+      <section className="py-16 md:py-24 bg-[#4C1D0D] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Need Expert Advice for Your Project?

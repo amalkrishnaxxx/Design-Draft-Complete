@@ -24,7 +24,7 @@ const Projects = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
             alt="Our Projects"
@@ -49,11 +49,10 @@ const Projects = () => {
               <Button
                 key={category.value}
                 onClick={() => setSelectedCategory(category.value)}
-                className={`${
-                  selectedCategory === category.value
-                    ? 'bg-orange-500 hover:bg-orange-600 text-white'
-                    : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
-                }`}
+                className={`${selectedCategory === category.value
+                  ? 'bg-orange-500 hover:bg-orange-600 text-white'
+                  : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
+                  }`}
               >
                 {category.label}
               </Button>

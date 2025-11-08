@@ -45,7 +45,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.unsplash.com/photo-1759922378275-32d7ca8bbcca"
             alt="Design Draft Team"
@@ -195,7 +195,7 @@ const About = () => {
                 alt="Modern Home"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
-              <div className="absolute -bottom-6 -right-6 bg-blue-900 text-white p-6 rounded-lg shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-[#4C1D0D] text-white p-6 rounded-lg shadow-xl">
                 <div className="text-4xl font-bold">#1</div>
                 <div className="text-sm font-medium">Builder in Thrissur</div>
               </div>
@@ -230,7 +230,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-blue-900 text-white">
+      <section className="py-16 md:py-24 bg-[#4C1D0D] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Let's Build Something Amazing Together

@@ -11,7 +11,7 @@ const Testimonials = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.unsplash.com/photo-1613490493576-7fde63acd811"
             alt="Happy Clients"
@@ -141,7 +141,7 @@ const Testimonials = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-orange-500">
+      <section className="py-16 md:py-24 bg-[#4C1D0D]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Join Our Family of Satisfied Clients

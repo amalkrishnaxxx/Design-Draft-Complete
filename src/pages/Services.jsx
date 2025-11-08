@@ -11,7 +11,7 @@ const Services = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.unsplash.com/photo-1759922378222-47ad736a174d"
             alt="Construction Services"
@@ -53,9 +53,8 @@ const Services = () => {
             <div
               key={service.id}
               id={service.slug}
-              className={`grid md:grid-cols-2 gap-8 md:gap-12 items-center ${
-                index % 2 === 1 ? 'md:flex-row-reverse' : ''
-              }`}
+              className={`grid md:grid-cols-2 gap-8 md:gap-12 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                }`}
             >
               {/* Content */}
               <div className={`space-y-6 ${index % 2 === 1 ? 'md:order-2' : ''}`}>

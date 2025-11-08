@@ -60,7 +60,7 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/70 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/70 via-[#4C1D0D]/70 to-[#4C1D0D]/70 z-10" />
           <img
             src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg"
             alt="Contact Us"
@@ -339,7 +339,7 @@ const Contact = () => {
               </Card>
 
               {/* Quick Contact */}
-              <Card className="bg-blue-900 text-white">
+              <Card className="bg-[#4C1D0D] text-white">
                 <CardContent className="p-6 space-y-4">
                   <h3 className="text-xl font-bold">Need Immediate Assistance?</h3>
                   <p className="text-gray-300 text-sm">
