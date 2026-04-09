@@ -1681,15 +1681,19 @@ export const team = [
 ];
 
 export const seoKeywords = [
-  'Thrissur\'s top builders',
-  'Best architects in Thrissur',
-  'Interior designers in Thrissur',
-  'Exterior designers in Thrissur',
-  'Home developers in Thrissur',
-  'Residential construction Thrissur',
-  'Commercial building contractors in Thrissur',
-  'House design Thrissur',
-  'Turnkey construction Thrissur',
-  'Kerala-style home design',
-  'Modern home designers Thrissur'
+  'builders in Thrissur',
+  'building contractors in Thrissur',
+  'contractors in Thrissur',
+  'architects in Thrissur',
+  'interior designers in Thrissur',
+  'exterior designers in Thrissur',
+  'building developers in Thrissur',
+  'home builders in Thrissur',
+  'residential builders in Thrissur',
+  'commercial building contractors in Thrissur',
+  'house construction in Thrissur',
+  'turnkey construction in Thrissur',
+  'best builders in Thrissur',
+  'Thrissur construction company',
+  'Kerala home builders'
 ];

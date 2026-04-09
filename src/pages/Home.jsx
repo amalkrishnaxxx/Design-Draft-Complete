@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Image from 'next/image';
 import { ArrowRight, Award, Building2, Users, CheckCircle2, Star } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
@@ -14,10 +15,13 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/5 via-[#4C1D0D]/8 to-[#4C1D0D]/7 z-10" />
 
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25"
             alt="Luxury Home in Thrissur"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
           />
         </div>
 
