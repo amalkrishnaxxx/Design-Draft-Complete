@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img
-              src={logo}
+              src={logo?.src || logo}
               alt="Design Draft Logo"
               className="h-10 md:h-12 w-auto"
             />
