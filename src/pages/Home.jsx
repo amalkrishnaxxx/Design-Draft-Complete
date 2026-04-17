@@ -34,8 +34,11 @@ const Home = () => {
               </p>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              From Dream to Reality
+              Builders & Architects in Thrissur, Kerala
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-orange-300">
+              From Dream to Reality
+            </h2>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
               Crafting modern & traditional buildings across Thrissur, Kerala with 25+ years of excellence
             </p>
@@ -124,13 +127,15 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-4">
                 <img
                   src="https://images.unsplash.com/photo-1613490493576-7fde63acd811"
-                  alt="Modern Kerala Home"
+                  alt="Modern Kerala style home built by Design Draft in Thrissur"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  loading="lazy"
                 />
                 <img
                   src="https://images.unsplash.com/photo-1581784878214-8d5596b98a01"
-                  alt="Interior Design"
+                  alt="Interior design by Design Draft for residential home in Thrissur Kerala"
                   className="rounded-lg shadow-lg w-full h-64 object-cover mt-8"
+                  loading="lazy"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-orange-500 text-white p-6 rounded-lg shadow-xl">
@@ -168,8 +173,9 @@ const Home = () => {
                   <div className="relative h-48 rounded-lg overflow-hidden">
                     <img
                       src={service.image}
-                      alt={service.title}
+                      alt={`${service.title} services in Thrissur Kerala by Design Draft`}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      loading="lazy"
                     />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-500 transition-colors">
@@ -216,8 +222,9 @@ const Home = () => {
                 <div className="relative h-64 overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.name}
+                    alt={`${project.name} - ${project.type} project in ${project.location} by Design Draft`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4 text-white">
@@ -310,8 +317,9 @@ const Home = () => {
                   <div className="flex items-center space-x-3 pt-4 border-t border-white/10">
                     <img
                       src={testimonial.image}
-                      alt={testimonial.name}
+                      alt={`${testimonial.name} - Design Draft client review`}
                       className="w-12 h-12 rounded-full"
+                      loading="lazy"
                     />
                     <div>
                       <div className="font-semibold text-white">{testimonial.name}</div>
@@ -330,6 +338,49 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block px-4 py-1.5 bg-orange-100 rounded-full mb-4">
+              <span className="text-orange-600 text-sm font-semibold">FAQs</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-lg text-gray-600">Common questions about building and designing in Thrissur, Kerala</p>
+          </div>
+          <div className="space-y-4">
+            {[
+              {
+                q: 'Who are the best builders in Thrissur?',
+                a: 'Design Draft is one of the top builders in Thrissur with 25+ years of experience and 250+ completed residential and commercial projects across Kerala.',
+              },
+              {
+                q: 'What services does Design Draft offer in Thrissur?',
+                a: 'We offer architectural design, interior design, exterior design, construction & contracting, project management, and landscaping services across Thrissur and Kerala.',
+              },
+              {
+                q: 'How much does home construction cost in Thrissur?',
+                a: 'Home construction costs in Thrissur typically range from ₹1,800 to ₹3,500+ per sq ft depending on the design, materials, and finishes. Contact us for a free detailed estimate.',
+              },
+              {
+                q: 'Does Design Draft build traditional Kerala style homes?',
+                a: 'Yes, we specialize in both traditional Kerala nalukettu style homes and modern contemporary designs. We also offer hybrid designs that blend the best of both styles.',
+              },
+            ].map((faq, i) => (
+              <details key={i} className="group border border-gray-200 rounded-xl overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50 list-none">
+                  {faq.q}
+                  <span className="ml-4 text-orange-500 font-bold text-xl group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="px-6 pb-6 text-gray-600 leading-relaxed">{faq.a}</div>
+              </details>
+            ))}
           </div>
         </div>
       </section>

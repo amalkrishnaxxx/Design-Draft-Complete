@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Our Services
+            Construction & Design Services in Thrissur, Kerala
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Comprehensive building solutions from design to completion - all under one roof
@@ -86,8 +86,9 @@ const Services = () => {
               <div className={`relative ${index % 2 === 1 ? 'md:order-1' : ''}`}>
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} services in Thrissur - Design Draft Kerala`}
                   className="rounded-lg shadow-2xl w-full h-96 object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
