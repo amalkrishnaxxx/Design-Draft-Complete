@@ -1,11 +1,15 @@
+const path = require("path");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // turbopack: {
-  //   resolveAlias: {
-  //     "react-router-dom": "./src/lib/react-router-dom-shim.js",
-  //   },
-  // },
+  webpack(config) {
+    config.resolve.alias["react-router-dom"] = path.resolve(
+      __dirname,
+      "src/lib/react-router-dom-shim.js"
+    );
+    return config;
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
