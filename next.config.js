@@ -23,6 +23,23 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      // Redirect old WordPress category/tag URLs to /blog
+      {
+        source: "/category/:slug*",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/tag/:slug*",
+        destination: "/blog",
+        permanent: true,
+      },
+      // Redirect old WordPress post/page URLs if any
+      {
+        source: "/wp-content/:slug*",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
   webpack(config) {
