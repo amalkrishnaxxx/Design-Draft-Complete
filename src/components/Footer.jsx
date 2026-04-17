@@ -42,25 +42,22 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Designdraft13"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-orange-500 transition-colors duration-200"
-                aria-label="Facebook"
+                aria-label="Design Draft on Facebook"
               >
                 <Facebook className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/_design_draft/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-orange-500 transition-colors duration-200"
-                aria-label="Instagram"
+                aria-label="Design Draft on Instagram"
               >
                 <Instagram className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-orange-500 transition-colors duration-200"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-4 w-4" />
               </a>
             </div>
           </div>

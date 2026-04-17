@@ -25,6 +25,11 @@ const HOME_SCHEMA = [
       postalCode: "680121",
       addressCountry: "IN",
     },
+    sameAs: [
+      "https://www.facebook.com/Designdraft13",
+      "https://www.instagram.com/_design_draft/",
+      "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z",
+    ],
   },
   {
     "@context": "https://schema.org",

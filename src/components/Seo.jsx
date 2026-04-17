@@ -57,6 +57,8 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
   hasMap: "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba7f7600df007a3:0xe5986fb3f129bde0",
   sameAs: [
     "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z",
+    "https://www.facebook.com/Designdraft13",
+    "https://www.instagram.com/_design_draft/",
   ],
 };
 
