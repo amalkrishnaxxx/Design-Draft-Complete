@@ -16,6 +16,13 @@ const nextConfig = {
         destination: "/projects",
         permanent: true,
       },
+      // Strip legacy ?liquid-header=dark-header query param (old WordPress theme)
+      {
+        source: "/",
+        has: [{ type: "query", key: "liquid-header" }],
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
   webpack(config) {
