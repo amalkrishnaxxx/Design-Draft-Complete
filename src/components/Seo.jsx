@@ -33,8 +33,6 @@ export default function Seo({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-
-      <script src="https://analytics.ahrefs.com/analytics.js" data-key="n4yPRZ3tRl9yvvTQ5A903g" async></script>
     </Head>
   );
 }
