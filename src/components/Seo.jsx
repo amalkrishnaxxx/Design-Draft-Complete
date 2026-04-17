@@ -5,7 +5,7 @@ const SITE_URL = "https://designdraft.co.in";
 
 const BASE_LOCAL_BUSINESS_SCHEMA = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
   name: "Design Draft",
   description:
     "Leading builders, architects, and interior designers in Thrissur, Kerala with 25+ years of experience.",
@@ -16,7 +16,7 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
   priceRange: "₹₹₹",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Irinjalakuda",
+    streetAddress: "86V8+8F7, Irinjalakuda",
     addressLocality: "Thrissur",
     addressRegion: "Kerala",
     postalCode: "680121",
@@ -24,19 +24,27 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 10.3436,
-    longitude: 76.2122,
+    latitude: 10.3432705,
+    longitude: 76.2149378,
   },
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    opens: "09:00",
-    closes: "18:00",
-  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "09:30",
+      closes: "17:30",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Sunday",
+      opens: "00:00",
+      closes: "00:00",
+    },
+  ],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "250",
+    reviewCount: "67",
     bestRating: "5",
     worstRating: "1",
   },
@@ -46,7 +54,10 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
     { "@type": "City", name: "Chalakudy" },
     { "@type": "State", name: "Kerala" },
   ],
-  hasMap: "https://maps.google.com/?q=Design+Draft+Irinjalakuda+Thrissur",
+  hasMap: "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba7f7600df007a3:0xe5986fb3f129bde0",
+  sameAs: [
+    "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z",
+  ],
 };
 
 export default function Seo({

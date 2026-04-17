@@ -10,7 +10,7 @@ const TESTIMONIALS_SCHEMA = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "250",
+    reviewCount: "67",
     bestRating: "5",
     worstRating: "1",
   },
