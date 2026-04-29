@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <>
       <Seo
-        title="Featured Construction Projects in Thrissur | Design Draft"
+        title="Completed Construction Projects in Thrissur | Design Draft"
         description="Browse residential and commercial projects completed by Design Draft across Thrissur and Kerala."
         path="/projects"
         keywords={[

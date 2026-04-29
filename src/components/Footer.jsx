@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 import { companyInfo } from '../data/mock';
 import logo from "../assets/design_draft_text_logo.svg"
 
@@ -11,25 +11,33 @@ const Footer = () => {
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Projects', path: '/projects' },
+    { name: 'Builders in Thrissur', path: '/builders-in-thrissur' },
+    { name: 'Developers in Thrissur', path: '/developers-in-thrissur' },
+    { name: 'Architects in Thrissur', path: '/architects-in-thrissur' },
+    { name: 'Interior Designers in Thrissur', path: '/interior-designers-in-thrissur' },
+    { name: 'Contractors in Thrissur', path: '/contractors-in-thrissur' },
+    { name: 'Villa Developers in Thrissur', path: '/villa-developers-in-thrissur' },
+    { name: 'Construction Cost Thrissur', path: '/construction-cost-thrissur' },
+    { name: 'Builders in Irinjalakuda', path: '/builders-in-irinjalakuda' },
+    { name: 'Builders in Chalakudy', path: '/builders-in-chalakudy' },
+    { name: 'Builders in Kodungallur', path: '/builders-in-kodungallur' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' }
   ];
 
   const services = [
-    'Architectural Design',
-    'Interior Design',
-    'Exterior Design',
-    'Construction & Contracting',
-    'Project Management',
-    'Landscaping'
+    { name: 'Architectural Design', path: '/architects-in-thrissur' },
+    { name: 'Interior Design', path: '/interior-designers-in-thrissur' },
+    { name: 'Exterior Design', path: '/designers-in-thrissur' },
+    { name: 'Construction & Contracting', path: '/contractors-in-thrissur' },
+    { name: 'Home Development', path: '/home-developers-in-thrissur' },
+    { name: 'Villa Development', path: '/villa-developers-in-thrissur' }
   ];
 
   return (
     <footer className="bg-slate-900 text-gray-300">
-      {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
-          {/* Company Info */}
           <div className="space-y-4">
             <img
               src={logo?.src || logo}
@@ -62,7 +70,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -79,24 +86,22 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
               {services.map((service) => (
-                <li key={service}>
+                <li key={service.name}>
                   <Link
-                    to="/services"
+                    to={service.path}
                     className="text-sm hover:text-orange-500 transition-colors duration-200"
                   >
-                    {service}
+                    {service.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
@@ -121,12 +126,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Footer */}
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <p className="text-sm text-gray-400">
-              © {currentYear} Design Draft. All rights reserved.
+              Copyright {currentYear} Design Draft. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <Link to="#" className="hover:text-orange-500 transition-colors">

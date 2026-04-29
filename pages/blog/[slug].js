@@ -24,7 +24,7 @@ export default function BlogSlugPage({ post }) {
           url: "https://designdraft.co.in",
           logo: {
             "@type": "ImageObject",
-            url: "https://designdraft.co.in/logo.png",
+            url: "https://designdraft.co.in/favicon.png",
           },
         },
         datePublished: post.date,

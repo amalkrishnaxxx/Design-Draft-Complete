@@ -218,11 +218,11 @@ const Contact = () => {
                         <SelectValue placeholder="Select budget range" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="under-30">Under ₹30 Lakhs</SelectItem>
-                        <SelectItem value="30-50">₹30 - ₹50 Lakhs</SelectItem>
-                        <SelectItem value="50-75">₹50 - ₹75 Lakhs</SelectItem>
-                        <SelectItem value="75-100">₹75 Lakhs - ₹1 Crore</SelectItem>
-                        <SelectItem value="above-100">Above ₹1 Crore</SelectItem>
+                        <SelectItem value="under-30">Under Rs. 30 Lakhs</SelectItem>
+                        <SelectItem value="30-50">Rs. 30 - Rs. 50 Lakhs</SelectItem>
+                        <SelectItem value="50-75">Rs. 50 - Rs. 75 Lakhs</SelectItem>
+                        <SelectItem value="75-100">Rs. 75 Lakhs - Rs. 1 Crore</SelectItem>
+                        <SelectItem value="above-100">Above Rs. 1 Crore</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

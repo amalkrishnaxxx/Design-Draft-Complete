@@ -88,30 +88,30 @@ const BlogPost = () => {
                 // Handle headings
                 if (paragraph.startsWith('# ')) {
                   return (
-                    <h1 key={index} className="text-4xl font-bold text-gray-900 mt-8 mb-4">
+                    <h2 key={index} className="text-3xl font-bold text-gray-900 mt-8 mb-4">
                       {paragraph.replace('# ', '')}
-                    </h1>
+                    </h2>
                   );
                 }
                 if (paragraph.startsWith('## ')) {
                   return (
-                    <h2 key={index} className="text-3xl font-bold text-gray-900 mt-8 mb-4">
+                    <h3 key={index} className="text-2xl font-bold text-gray-900 mt-8 mb-4">
                       {paragraph.replace('## ', '')}
-                    </h2>
+                    </h3>
                   );
                 }
                 if (paragraph.startsWith('### ')) {
                   return (
-                    <h3 key={index} className="text-2xl font-bold text-gray-900 mt-6 mb-3">
+                    <h4 key={index} className="text-xl font-bold text-gray-900 mt-6 mb-3">
                       {paragraph.replace('### ', '')}
-                    </h3>
+                    </h4>
                   );
                 }
                 if (paragraph.startsWith('#### ')) {
                   return (
-                    <h4 key={index} className="text-xl font-bold text-gray-900 mt-6 mb-3">
+                    <h5 key={index} className="text-lg font-bold text-gray-900 mt-6 mb-3">
                       {paragraph.replace('#### ', '')}
-                    </h4>
+                    </h5>
                   );
                 }
                 // Handle lists

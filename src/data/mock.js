@@ -1295,10 +1295,10 @@ This is the major component, typically categorized as:
 ### Per Square Foot Rates
 
 **Basic Construction**
-- Economy: ₹1,200 - ₹1,500 per sq ft
-- Standard: ₹1,500 - ₹1,800 per sq ft
-- Premium: ₹1,800 - ₹2,200 per sq ft
-- Luxury: ₹2,200 - ₹3,000+ per sq ft
+- Economy: Rs. 1,200 - Rs. 1,500 per sq ft
+- Standard: Rs. 1,500 - Rs. 1,800 per sq ft
+- Premium: Rs. 1,800 - Rs. 2,200 per sq ft
+- Luxury: Rs. 2,200 - Rs. 3,000+ per sq ft
 
 ### What's Included in Each Category
 
@@ -1409,31 +1409,31 @@ This is the major component, typically categorized as:
 ### Standard Quality Construction
 
 **Basic Structure & Finishing**
-- 2000 sq ft × ₹1,650/sq ft = ₹33,00,000
+- 2000 sq ft × Rs. 1,650/sq ft = Rs. 33,00,000
 
 **Additional Costs:**
-- Architectural design: ₹1,65,000 (5%)
-- Electrical & plumbing upgrades: ₹1,50,000
-- Landscaping: ₹1,00,000
-- Compound wall & gate: ₹1,50,000
-- Contingency (10%): ₹3,30,000
+- Architectural design: Rs. 1,65,000 (5%)
+- Electrical & plumbing upgrades: Rs. 1,50,000
+- Landscaping: Rs. 1,00,000
+- Compound wall & gate: Rs. 1,50,000
+- Contingency (10%): Rs. 3,30,000
 
-**Total Estimated Cost: ₹41,95,000**
+**Total Estimated Cost: Rs. 41,95,000**
 
 ### Premium Quality Construction
 
 **Basic Structure & Finishing**
-- 2000 sq ft × ₹2,000/sq ft = ₹40,00,000
+- 2000 sq ft × Rs. 2,000/sq ft = Rs. 40,00,000
 
 **Additional Costs:**
-- Architectural design: ₹2,00,000 (5%)
-- Premium fixtures: ₹2,00,000
-- Interior design: ₹2,50,000
-- Landscaping: ₹1,50,000
-- Compound wall & gate: ₹2,00,000
-- Contingency (10%): ₹4,00,000
+- Architectural design: Rs. 2,00,000 (5%)
+- Premium fixtures: Rs. 2,00,000
+- Interior design: Rs. 2,50,000
+- Landscaping: Rs. 1,50,000
+- Compound wall & gate: Rs. 2,00,000
+- Contingency (10%): Rs. 4,00,000
 
-**Total Estimated Cost: ₹54,00,000**
+**Total Estimated Cost: Rs. 54,00,000**
 
 ## Cost-Saving Strategies
 
@@ -1682,18 +1682,25 @@ export const team = [
 
 export const seoKeywords = [
   'builders in Thrissur',
+  'best builders in Thrissur',
+  'top builders in Thrissur',
+  'builders near me in Thrissur',
+  'developers in Thrissur',
+  'home developers in Thrissur',
+  'home and villas developers',
   'building contractors in Thrissur',
   'contractors in Thrissur',
   'architects in Thrissur',
   'interior designers in Thrissur',
   'exterior designers in Thrissur',
+  'designers in Thrissur',
   'building developers in Thrissur',
   'home builders in Thrissur',
   'residential builders in Thrissur',
   'commercial building contractors in Thrissur',
   'house construction in Thrissur',
   'turnkey construction in Thrissur',
-  'best builders in Thrissur',
+  'construction groups in Thrissur',
   'Thrissur construction company',
   'Kerala home builders'
 ];

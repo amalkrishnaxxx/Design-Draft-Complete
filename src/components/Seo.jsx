@@ -11,12 +11,14 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
     "Leading builders, architects, and interior designers in Thrissur, Kerala with 25+ years of experience.",
   url: SITE_URL,
   telephone: "+917736885666",
-  email: "Info@designdraft.co.in",
+  email: "info@designdraft.co.in",
   foundingDate: "1998",
-  priceRange: "₹₹₹",
+  priceRange: "INR",
+  image: `${SITE_URL}/favicon.png`,
+  logo: `${SITE_URL}/favicon.png`,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "86V8+8F7, Irinjalakuda",
+    streetAddress: "Design Draft Designers & Developers, Irinjalakuda",
     addressLocality: "Thrissur",
     addressRegion: "Kerala",
     postalCode: "680121",
@@ -30,31 +32,25 @@ const BASE_LOCAL_BUSINESS_SCHEMA = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:30",
-      closes: "17:30",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
     },
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Sunday",
-      opens: "00:00",
-      closes: "00:00",
+      dayOfWeek: "Saturday",
+      opens: "09:00",
+      closes: "16:00",
     },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5",
-    reviewCount: "67",
-    bestRating: "5",
-    worstRating: "1",
-  },
   areaServed: [
     { "@type": "City", name: "Thrissur" },
     { "@type": "City", name: "Irinjalakuda" },
     { "@type": "City", name: "Chalakudy" },
+    { "@type": "City", name: "Kodungallur" },
     { "@type": "State", name: "Kerala" },
   ],
-  hasMap: "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba7f7600df007a3:0xe5986fb3f129bde0",
+  hasMap: "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z",
   sameAs: [
     "https://www.google.com/maps/place/Design+Draft/@10.3432705,76.2149378,17z",
     "https://www.facebook.com/Designdraft13",
@@ -76,7 +72,10 @@ export default function Seo({
       ? keywords.join(", ")
       : `${companyInfo.name}, Thrissur builders, Kerala architects`;
 
-  const schemas = [BASE_LOCAL_BUSINESS_SCHEMA, ...(schema ? (Array.isArray(schema) ? schema : [schema]) : [])];
+  const schemas = [
+    BASE_LOCAL_BUSINESS_SCHEMA,
+    ...(schema ? (Array.isArray(schema) ? schema : [schema]) : []),
+  ];
 
   return (
     <Head>
@@ -94,6 +93,7 @@ export default function Seo({
       <meta property="og:site_name" content={companyInfo.name} />
 
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@_design_draft_" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />

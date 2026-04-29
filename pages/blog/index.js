@@ -9,11 +9,11 @@ export default function BlogPage() {
         description="Read expert blog posts on house design, architecture, construction planning, and interior design trends in Thrissur and Kerala."
         path="/blog"
         keywords={[
-          "builders in Thrissur",
-          "architects in Thrissur",
-          "interior designers in Thrissur",
-          "building contractors in Thrissur",
-          "home builders in Thrissur",
+          "construction guide Thrissur",
+          "home construction tips Kerala",
+          "house design ideas Thrissur",
+          "construction cost Thrissur",
+          "Kerala architecture blog",
         ]}
       />
       <Blog />

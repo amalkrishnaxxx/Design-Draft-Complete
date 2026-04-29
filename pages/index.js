@@ -8,7 +8,7 @@ const HOME_SCHEMA = [
     "@type": "Organization",
     name: "Design Draft",
     url: "https://designdraft.co.in",
-    logo: "https://designdraft.co.in/logo.png",
+    logo: "https://designdraft.co.in/favicon.png",
     foundingDate: "1998",
     description: "Thrissur's leading builders, architects and developers since 1998.",
     contactPoint: {
@@ -67,7 +67,7 @@ const HOME_SCHEMA = [
         name: "How much does home construction cost in Thrissur?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Home construction costs in Thrissur typically range from ₹1,800 to ₹3,500+ per sq ft depending on the design, materials, and finishes. Contact Design Draft for a free detailed estimate.",
+          text: "Home construction costs in Thrissur typically range from Rs. 1,800 to Rs. 3,500+ per sq ft depending on the design, materials, and finishes. Contact Design Draft for a free detailed estimate.",
         },
       },
       {
