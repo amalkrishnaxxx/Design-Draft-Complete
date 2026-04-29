@@ -50,11 +50,14 @@ export default function BuildersInThrissurPage() {
         description="Looking for trusted builders in Thrissur? Design Draft provides architectural design, house construction, interiors, and turnkey project execution across Thrissur and Kerala."
         path="/builders-in-thrissur"
         keywords={[
-          "builders in Thrissur",
           "best builders in Thrissur",
-          "home builders in Thrissur",
-          "building contractors in Thrissur",
-          "turnkey construction in Thrissur",
+          "trusted home builders Thrissur",
+          "custom home builders Thrissur",
+          "independent house builders Thrissur",
+          "affordable house construction Thrissur",
+          "house construction services Thrissur",
+          "local construction experts Thrissur",
+          "hire builders in Thrissur"
         ]}
         schema={BUILDERS_PAGE_SCHEMA}
       />

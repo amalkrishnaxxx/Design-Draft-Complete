@@ -1,7 +1,7 @@
 export const companyInfo = {
   name: 'Design Draft',
   tagline: 'From Dream to Reality – Thrissur\'s Leading Home Builders & Developers',
-  description: 'Design Draft is one of the top builders and architectural design companies in Thrissur, Kerala, with over 25 years of trusted experience and 250+ happy clients. We specialize in residential and commercial property development, delivering modern homes, traditional Kerala houses, and quality commercial spaces across Kerala.',
+  description: 'Design Draft is the top construction company Thrissur Kerala and trusted home builders Thrissur with over 25 years of experience. We provide complete home building solutions Thrissur, from residential architectural services Thrissur to premium home construction Thrissur. As local construction experts Thrissur, we deliver turnkey construction company Thrissur services.',
   location: 'Irinjalakuda, Thrissur, Kerala',
   phone: '+91 7736885666',
   email: 'Info@designdraft.co.in',
@@ -26,8 +26,8 @@ export const services = [
     id: 1,
     title: 'Architectural Design',
     slug: 'architectural-design',
-    shortDescription: 'Expert team managing architectural and engineering aspects, delivering custom-built homes and commercial spaces tailored to your needs.',
-    fullDescription: 'Our expert team in Kerala manages both architectural and engineering aspects of every project. We deliver custom-built homes and commercial spaces tailored to your specific needs, combining functionality with aesthetic excellence. From concept to completion, we ensure your vision comes to life with precision and creativity.',
+    shortDescription: 'Expert best architects Thrissur Kerala managing architectural and engineering aspects, delivering custom house design services Thrissur.',
+    fullDescription: 'Our expert team provides top-notch residential architectural services Thrissur and building planning and design Thrissur. We deliver custom-built homes and commercial spaces tailored to your needs, acting as the leading building design consultants Thrissur.',
     features: [
       'Custom architectural planning',
       'Modern and traditional Kerala designs',
@@ -43,8 +43,8 @@ export const services = [
     id: 2,
     title: 'Interior Design',
     slug: 'interior-design',
-    shortDescription: 'Creating interiors that combine comfort and elegance, designing living spaces where you truly feel at home.',
-    fullDescription: 'We work closely with you to bring your dream interiors to life. Our expert team designs interiors that are functional, elegant, and tailored to your lifestyle. From living rooms to kitchens, bedrooms to offices, we create spaces that reflect your personality and enhance your daily living experience.',
+    shortDescription: 'Premium interior design services Thrissur creating living spaces that combine comfort and elegance, crafted by top home interior specialists Thrissur.',
+    fullDescription: 'We offer luxury interior design Thrissur homes. Our living space interior designers Kerala work closely with you to bring your dream interiors to life. Whether you need modular kitchen designers Thrissur or space planning experts Thrissur, we are here.',
     features: [
       'Customized space planning',
       'Modern and classic interior themes',
@@ -77,8 +77,8 @@ export const services = [
     id: 4,
     title: 'Construction & Contracting',
     slug: 'construction-contracting',
-    shortDescription: 'Trusted home builders and contractors managing every aspect from planning to completion with high-quality execution.',
-    fullDescription: 'As trusted home builders and contractors in Thrissur, we manage every aspect of your project from planning to completion. With 25+ years of experience, we deliver high-quality residential and commercial spaces on time and within budget. Our comprehensive approach ensures seamless execution of your construction project.',
+    shortDescription: 'Trusted building contractors Thrissur Kerala managing every aspect from planning to completion with high-quality execution.',
+    fullDescription: 'As licensed civil contractors Thrissur and general construction contractors Thrissur, we manage every aspect of your project. With 25+ years of experience, we provide affordable house construction Thrissur and complete home building solutions Thrissur.',
     features: [
       'Turnkey construction solutions',
       'Quality material procurement',
@@ -94,7 +94,7 @@ export const services = [
     id: 5,
     title: 'Project Management',
     slug: 'project-management',
-    shortDescription: 'Expert supervision ensuring your project is executed efficiently and flawlessly from start to finish.',
+    shortDescription: 'Expert supervision by a leading design and build firm Thrissur, ensuring your project is executed efficiently.',
     fullDescription: 'With our extensive experience, we provide expert supervision to ensure your project is executed efficiently and flawlessly. Our project management team coordinates all aspects of construction, from vendor management to quality control, making us one of Kerala\'s top home builders and contractors.',
     features: [
       'End-to-end project coordination',
@@ -255,10 +255,10 @@ export const testimonials = [
 export const blogPosts = [
   {
     id: 1,
-    slug: 'modern-house-design-ideas-thrissur-2025',
-    title: 'Top 10 Modern House Design Ideas in Thrissur for 2025',
-    excerpt: 'Discover the latest modern house design trends that are transforming homes across Thrissur, Kerala. From contemporary Kerala architecture to minimalist designs.',
-    content: `# Top 10 Modern House Design Ideas in Thrissur for 2025
+    slug: 'modern-house-design-ideas-thrissur-2026',
+    title: 'Top 10 Modern House Design Ideas in Thrissur for 2026',
+    excerpt: 'Discover the latest home design trends Thrissur that are transforming homes. From contemporary house plans Kerala to modern architecture firms Thrissur insights.',
+    content: `# Top 10 Modern House Design Ideas in Thrissur for 2026
 
 As Thrissur continues to grow as a hub for contemporary architecture, homeowners are embracing modern design trends while respecting Kerala's rich architectural heritage. Whether you're planning to build your dream home or renovate your existing property, these top 10 modern house design ideas will inspire your next project.
 
@@ -363,23 +363,23 @@ Modern house design in Thrissur beautifully balances contemporary aesthetics wit
 
 Design Draft, with 25+ years of experience in Thrissur, specializes in creating modern homes that reflect your lifestyle while incorporating the latest design trends. Contact us to discuss your modern home design project.
 
-### Keywords: Modern house design Thrissur, contemporary homes Kerala, Thrissur architects, home design ideas, Kerala architecture`,
+### Keywords: contact home builders Thrissur, book construction consultation Thrissur, modern house design ideas Kerala, latest home design trends Thrissur, contemporary house plans Kerala, traditional vs modern home Kerala, interior design trends Kerala homes, home renovation ideas Thrissur, house planning tips Kerala`,
     author: 'Design Draft Team',
-    date: '2025-01-15',
+    date: '2026-01-15',
     category: 'Architecture',
     image: 'https://images.unsplash.com/photo-1565255822848-80db21938837',
     readTime: '8 min read',
-    metaTitle: 'Top 10 Modern House Design Ideas in Thrissur 2025 | Design Draft',
+    metaTitle: 'Top 10 Modern House Design Ideas in Thrissur 2026 | Design Draft',
     metaDescription: 'Explore the latest modern house design trends in Thrissur, Kerala. From contemporary Kerala architecture to eco-friendly homes. Expert design ideas from Thrissur\'s top architects.'
   },
   {
     id: 2,
     slug: 'how-to-choose-right-builder-thrissur',
     title: 'How to Choose the Right Builder in Thrissur: Complete Guide',
-    excerpt: 'Planning to build your dream home in Thrissur? Learn the essential factors to consider when selecting the best builder for your construction project.',
+    excerpt: 'Planning to build your dream home? Learn how to find a trusted construction company near me and hire builders in Thrissur. Follow our construction planning guide Thrissur.',
     content: `# How to Choose the Right Builder in Thrissur: Complete Guide
 
-Choosing the right builder is one of the most important decisions you'll make when constructing your dream home in Thrissur. With numerous builders operating in the region, it's essential to know what to look for to ensure your project is completed successfully.
+Choosing the right builder is one of the most important decisions you'll make. Whether you need independent house builders Thrissur, villa construction specialists Thrissur, or general construction contractors Thrissur, this guide will help you. With numerous builders operating in the region, it's essential to know what to look for to ensure your project is completed successfully.
 
 ## Why Choosing the Right Builder Matters
 
@@ -569,20 +569,20 @@ Design Draft has been building quality homes in Thrissur for over 25 years, with
 
 Contact Design Draft today to discuss your project and experience the difference that expertise and dedication make.
 
-### Keywords: Choosing builder Thrissur, best builders Thrissur, home construction Thrissur, residential builders Kerala, construction company Thrissur`,
+### Keywords: choosing the right builder Kerala, construction planning guide Thrissur, home building process Kerala, design trends for villas Kerala, space optimization home interiors Kerala, best builders in Thrissur, top construction company Thrissur Kerala, trusted home builders Thrissur, affordable house construction Thrissur, residential construction company Kerala`,
     author: 'Design Draft Team',
-    date: '2025-01-10',
+    date: '2026-01-10',
     category: 'Construction Tips',
     image: 'https://images.unsplash.com/photo-1759922378275-32d7ca8bbcca',
     readTime: '10 min read',
-    metaTitle: 'How to Choose the Right Builder in Thrissur | Expert Guide 2025',
+    metaTitle: 'How to Choose the Right Builder in Thrissur | Expert Guide 2026',
     metaDescription: 'Complete guide to selecting the best builder in Thrissur, Kerala. Learn essential factors, red flags to avoid, and questions to ask before starting your construction project.'
   },
   {
     id: 3,
     slug: 'kerala-style-home-design-vs-contemporary',
     title: 'Kerala Style Home Design vs Contemporary: Which is Right for You?',
-    excerpt: 'Comparing traditional Kerala architecture with modern contemporary designs. Discover which style suits your lifestyle, budget, and aesthetic preferences in Thrissur.',
+    excerpt: 'Comparing traditional vs modern home Kerala styles. Learn about residential architectural services Thrissur and find the perfect building design consultants Thrissur.',
     content: `# Kerala Style Home Design vs Contemporary: Which is Right for You?
 
 When planning your dream home in Thrissur, one of the first decisions you'll face is choosing between traditional Kerala-style architecture and contemporary design. Both styles have unique advantages and can be adapted to create stunning homes. This comprehensive guide will help you understand the differences and make an informed decision.
@@ -860,9 +860,9 @@ We can help you:
 
 Contact Design Draft today to discuss your vision and explore design options for your dream home in Thrissur.
 
-### Keywords: Kerala style homes, contemporary house design Thrissur, traditional Kerala architecture, modern homes Kerala, house design Thrissur, residential architecture`,
+### Keywords: latest home design trends Thrissur, contemporary house plans Kerala, traditional vs modern home Kerala, best architects Thrissur Kerala`,
     author: 'Design Draft Team',
-    date: '2025-01-05',
+    date: '2026-01-05',
     category: 'Design Trends',
     image: 'https://images.unsplash.com/photo-1706937110129-fd222ac8deb7',
     readTime: '12 min read',
@@ -872,11 +872,11 @@ Contact Design Draft today to discuss your vision and explore design options for
   {
     id: 4,
     slug: 'interior-design-trends-thrissur-homes',
-    title: 'Latest Interior Design Trends for Thrissur Homes in 2025',
-    excerpt: 'Stay ahead of the curve with the latest interior design trends transforming homes across Thrissur. From minimalist aesthetics to sustainable materials.',
-    content: `# Latest Interior Design Trends for Thrissur Homes in 2025
+    title: 'Latest Interior Design Trends for Thrissur Homes in 2026',
+    excerpt: 'Stay ahead with the latest interior design trends Kerala homes. Our living space interior designers Kerala share tips on space optimization home interiors Kerala.',
+    content: `# Latest Interior Design Trends for Thrissur Homes in 2026
 
-Interior design trends are constantly evolving, and 2025 brings exciting new directions for homes in Thrissur. Whether you're renovating your existing home or designing interiors for a new construction, these trends will help you create spaces that are both beautiful and functional.
+Interior design trends are constantly evolving, and 2026 brings exciting new directions for homes in Thrissur. Whether you're renovating your existing home or designing interiors for a new construction, these trends will help you create spaces that are both beautiful and functional.
 
 ## 1. Biophilic Design: Bringing Nature Indoors
 
@@ -910,7 +910,7 @@ Biophilic design integrates natural elements into interior spaces, creating a st
 
 ## 2. Earthy and Natural Color Palettes
 
-### 2025 Color Trends
+### 2026 Color Trends
 - **Warm Neutrals**
   - Beige and cream
   - Warm grays
@@ -1224,29 +1224,29 @@ Biophilic design integrates natural elements into interior spaces, creating a st
 
 ## Conclusion
 
-The interior design trends for 2025 in Thrissur emphasize sustainability, functionality, and personal expression. By thoughtfully incorporating these trends while staying true to your personal style and practical needs, you can create a home that's both contemporary and timeless.
+The interior design trends for 2026 in Thrissur emphasize sustainability, functionality, and personal expression. By thoughtfully incorporating these trends while staying true to your personal style and practical needs, you can create a home that's both contemporary and timeless.
 
 Design Draft's interior design team specializes in creating beautiful, functional interiors for Thrissur homes. With 25+ years of experience, we understand local preferences, climate considerations, and how to blend modern trends with traditional Kerala aesthetics.
 
 Contact us today to discuss your interior design project and bring your vision to life with expert guidance and quality execution.
 
-### Keywords: Interior design Thrissur, home interior trends 2025, Kerala interior design, modern interiors, sustainable design, interior designers Thrissur`,
+### Keywords: interior design services Thrissur, home interior specialists Thrissur, modular kitchen designers Thrissur, living space interior designers Kerala, luxury interior design Thrissur homes`,
     author: 'Design Draft Team',
     date: '2023-12-28',
     category: 'Interior Design',
     image: 'https://images.unsplash.com/photo-1564078516393-cf04bd966897',
     readTime: '11 min read',
-    metaTitle: 'Latest Interior Design Trends for Thrissur Homes 2025 | Design Draft',
-    metaDescription: '2025 interior design trends for Thrissur homes. Discover biophilic design, sustainable materials, smart home integration, and modern aesthetics from expert interior designers.'
+    metaTitle: 'Latest Interior Design Trends for Thrissur Homes 2026 | Design Draft',
+    metaDescription: '2026 interior design trends for Thrissur homes. Discover biophilic design, sustainable materials, smart home integration, and modern aesthetics from expert interior designers.'
   },
   {
     id: 5,
     slug: 'construction-cost-estimation-guide-thrissur',
     title: 'Construction Cost Estimation Guide for Building Your Home in Thrissur',
-    excerpt: 'Comprehensive guide to understanding construction costs in Thrissur. Learn about cost factors, budget planning, and how to get the best value for your home building project.',
+    excerpt: 'Comprehensive guide to house construction cost Thrissur. Learn about building cost per sq ft Kerala and home construction budget planning Thrissur.',
     content: `# Construction Cost Estimation Guide for Building Your Home in Thrissur
 
-Planning to build your dream home in Thrissur? Understanding construction costs is crucial for effective budget planning and avoiding surprises. This comprehensive guide will help you estimate costs accurately and make informed decisions about your construction project.
+Planning to build? Using a construction cost calculator Kerala and understanding residential construction pricing Thrissur is crucial. Learn the project cost estimation Thrissur and home building cost breakdown Kerala. This comprehensive guide will help you estimate costs accurately and make informed decisions about your construction project.
 
 ## Understanding Construction Cost Components
 
@@ -1290,7 +1290,7 @@ This is the major component, typically categorized as:
 - Landscaping
 - External works
 
-## Current Construction Costs in Thrissur (2025)
+## Current Construction Costs in Thrissur (2026)
 
 ### Per Square Foot Rates
 
@@ -1659,13 +1659,13 @@ Design Draft offers free initial consultations and detailed cost estimates for y
 
 Contact us today to discuss your project and receive a customized cost estimate for your dream home in Thrissur.
 
-### Keywords: Construction cost Thrissur, building cost estimation Kerala, home construction budget, cost per square foot Thrissur, builders Thrissur rates, construction expenses Kerala`,
+### Keywords: house construction cost Thrissur, building cost per sq ft Kerala, residential construction pricing Thrissur, cost to build a villa in Kerala, home construction budget planning Thrissur, construction cost calculator Kerala`,
     author: 'Design Draft Team',
     date: '2023-12-20',
     category: 'Construction Guide',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg',
     readTime: '15 min read',
-    metaTitle: 'Construction Cost Estimation Guide Thrissur 2025 | Complete Budget Planning',
+    metaTitle: 'Construction Cost Estimation Guide Thrissur 2026 | Complete Budget Planning',
     metaDescription: 'Complete guide to construction costs in Thrissur, Kerala. Learn per sq ft rates, cost breakdown, budget planning tips, and cost-saving strategies from experienced builders.'
   }
 ];
@@ -1681,26 +1681,87 @@ export const team = [
 ];
 
 export const seoKeywords = [
-  'builders in Thrissur',
   'best builders in Thrissur',
-  'top builders in Thrissur',
-  'builders near me in Thrissur',
-  'developers in Thrissur',
-  'home developers in Thrissur',
-  'home and villas developers',
-  'building contractors in Thrissur',
-  'contractors in Thrissur',
-  'architects in Thrissur',
-  'interior designers in Thrissur',
-  'exterior designers in Thrissur',
-  'designers in Thrissur',
-  'building developers in Thrissur',
-  'home builders in Thrissur',
-  'residential builders in Thrissur',
-  'commercial building contractors in Thrissur',
-  'house construction in Thrissur',
-  'turnkey construction in Thrissur',
-  'construction groups in Thrissur',
-  'Thrissur construction company',
-  'Kerala home builders'
+  'top construction company Thrissur Kerala',
+  'trusted home builders Thrissur',
+  'affordable house construction Thrissur',
+  'residential construction company Kerala',
+  'custom home builders Thrissur',
+  'turnkey construction company Thrissur',
+  'design and build firm Thrissur',
+  'independent house builders Thrissur',
+  'villa construction specialists Thrissur',
+  'premium home construction Thrissur',
+  'local construction experts Thrissur',
+  'building contractors Thrissur Kerala',
+  'licensed civil contractors Thrissur',
+  'general construction contractors Thrissur',
+  'house construction services Thrissur',
+  'complete home building solutions Thrissur',
+  'real estate developers Thrissur Kerala',
+  'property development company Thrissur',
+  'residential property developers Thrissur',
+  'custom home developers Kerala',
+  'villa developers Thrissur Kerala',
+  'luxury villa construction Thrissur',
+  'independent villa construction Kerala',
+  'best architects Thrissur Kerala',
+  'residential architectural services Thrissur',
+  'house planning architects Thrissur',
+  'modern architecture firms Thrissur',
+  'building design consultants Thrissur',
+  'home design architects Kerala',
+  'interior design services Thrissur',
+  'home interior specialists Thrissur',
+  'modular kitchen designers Thrissur',
+  'living space interior designers Kerala',
+  'luxury interior design Thrissur homes',
+  'space planning experts Thrissur',
+  'house designers Thrissur Kerala',
+  'custom house design services Thrissur',
+  'architectural design services Kerala',
+  'building planning and design Thrissur',
+  'construction companies near Thrissur',
+  'top building firms Kerala Thrissur',
+  'infrastructure construction companies Thrissur',
+  'engineering construction firms Thrissur',
+  'house construction cost Thrissur',
+  'building cost per sq ft Kerala',
+  'residential construction pricing Thrissur',
+  'cost to build a villa in Kerala',
+  'home construction budget planning Thrissur',
+  'construction cost calculator Kerala',
+  'project cost estimation Thrissur',
+  'home building cost breakdown Kerala',
+  'builders in Irinjalakuda Kerala',
+  'construction services Irinjalakuda',
+  'home builders Chalakudy Kerala',
+  'construction company Chalakudy area',
+  'house construction Kodungallur Kerala',
+  'builders near Kodungallur town',
+  'construction project portfolio Thrissur',
+  'completed house projects Kerala',
+  'villa construction portfolio Thrissur',
+  'residential building portfolio Kerala',
+  'construction company reviews Thrissur',
+  'customer feedback builders Kerala',
+  'top rated construction firms Thrissur',
+  'trusted builder reviews Kerala',
+  'hire builders in Thrissur',
+  'find construction company near me',
+  'best construction services near me',
+  'contact home builders Thrissur',
+  'book construction consultation Thrissur',
+  'modern house design ideas Kerala',
+  'latest home design trends Thrissur',
+  'contemporary house plans Kerala',
+  'traditional vs modern home Kerala',
+  'interior design trends Kerala homes',
+  'home renovation ideas Thrissur',
+  'house planning tips Kerala',
+  'choosing the right builder Kerala',
+  'construction planning guide Thrissur',
+  'home building process Kerala',
+  'design trends for villas Kerala',
+  'space optimization home interiors Kerala'
 ];
