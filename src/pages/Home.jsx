@@ -5,6 +5,7 @@ import { ArrowRight, Award, Building2, Users, CheckCircle2, Star } from 'lucide-
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { companyInfo, stats, services, projects, testimonials } from '../data/mock';
+import bannerBg from '../../public/banner_bg.png';
 
 const Home = () => {
   return (
@@ -16,10 +17,11 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-[#4C1D0D]/5 via-[#4C1D0D]/8 to-[#4C1D0D]/7 z-10" />
 
           <Image
-            src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25"
+            src={bannerBg}
             alt="Luxury Home in Thrissur"
             fill
             priority
+            placeholder="blur"
             sizes="100vw"
             className="object-cover"
           />
@@ -264,7 +266,7 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { id: 'msE6OjmqbIM', title: 'Project Showcase 1' },
+              { id: 'fQKu_GTJsWg', title: 'Client Testimonial - Ashwin Antony' },
               { id: 'A1VbWfll72U', title: 'Project Showcase 2' },
               { id: 'ovmUVyMxTog', title: 'Project Showcase 3' },
               { id: 'fIOVQm6C8Ig', title: 'Project Showcase 4' },

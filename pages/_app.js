@@ -4,10 +4,12 @@ import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/sonner";
 import Script from "next/script";
 import Head from "next/head";
+import PageLoader from "@/components/PageLoader";
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
+      <PageLoader />
       <Head>
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="shortcut icon" href="/favicon.png" />
